@@ -11,25 +11,25 @@ public class Main {
         //     System.out.println(estudante);
         // }
 
-        // String[] frutas = {"Morango", "Goiaba", "Mamao", "Abacate", "Manga"};
-        // System.out.println("Qtde de Frutas: " + frutas.length);
-        //     for(String produtos : frutas){
-        //         System.out.println(produtos);
-        //     }
+        String[] frutas = {"Morango", "Goiaba", "Mamao", "Abacate", "Manga"};
+        System.out.println("Qtde de Frutas: " + frutas.length);
+            for(String produtos : frutas){
+                System.out.println(produtos);
+            }
         
         // for(int i = 0; i < frutas.length; i++){
         //     System.out.println(frutas[i]);
         // }    
 
-        int[] numero = {5, 8, -4, 0, 23};
-        for(int item : numero ){
-            if (item < 0)
-                System.out.println("O valor de " + item + "eh negativo");
-            if (item == 0)
-                System.out.println("O valor de " + item + "eh zero");
-            if (item > 0)
-                System.out.println("O valor de " + item + "eh positivo");
-        }
+        // int[] numero = {5, 8, -4, 0, 23};
+        // for(int item : numero ){
+        //     if (item < 0)
+        //         System.out.println("O valor de " + item + "eh negativo");
+        //     if (item == 0)
+        //         System.out.println("O valor de " + item + "eh zero");
+        //     if (item > 0)
+        //         System.out.println("O valor de " + item + "eh positivo");
+        // }
     }
     
 }
