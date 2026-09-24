@@ -30,12 +30,12 @@ public class Main {
         // moto_1.desligarMotor();
 
         Balao balao_1 = new Balao ();
-        balao_1.limite_pessoas = "Honda";
+        balao_1.limite_pessoas = "10";
 
-        System.out.println("Marca: " + balao_1.limite_pessoas);
+        System.out.println("Limite de Pessoas: " + balao_1.limite_pessoas);
         
-        balao_1.acender()
-        balao_1.subir()
-        balao_1.descer()
+        balao_1.acender();
+        balao_1.subir();
+        balao_1.descer();
     }
 }

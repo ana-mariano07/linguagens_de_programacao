@@ -1,17 +1,15 @@
-
-
 public class Balao {
     String limite_pessoas = "";
 
-    public static void balao_1.acender() {
+    public static void acender() {
         System.out.println("Balao acendeu!");
     }
 
-    public static void balao_1.subir() {
+    public static void subir() {
         System.out.println("Balao subiu!");
     }
     
-    public static void balao_1.descer() {
+    public static void descer() {
         System.out.println("Balao desceu!");
     }
     
